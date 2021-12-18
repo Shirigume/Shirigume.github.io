@@ -2,49 +2,254 @@
     
     <html>
         <head>
-            <h1>Aha</h1>
+         
+            
             <meta name="viewport" content="Width=device-width, initial-scale=1.0">
             <title>Website Design with giF Bacrounds - Easy Tutorial</title>
+              <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+            background-color: green;
+            height: 400px;
+        }
+ 
+        .secondsection {
+            background-color: blue;
+            height: 400px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    </style>
  <link rel="stylesheet" href="style.css">           
         </head>
-        <body>
+         <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "logo.png">
+            </div>
+            <li><a href="#web">Тренировка</a></li>
+            <li><a href="#program">Хранене</a></li>
+            <li><a href="#course">Режим</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+            <br>    <br>    <br>    <br>    <br>    <br>
          <p align="left"</p>
-          <center><p>1. Първо упражнение</p></center>
-                <p><center>3 серии по 20 повторения(задържане на тежестта няколко секунди и отпускане на долу бавно в най горната позиция по възможност )</center></p>
+          <center><h1 class=text-big" id="web">1. Първо упражнение  </h>        
+                <p><center>3х20</center></p>
+                    <br>
+                <p><center></center></p>
                 <center><img src="snimki/1wo.gif"></center>
-                <p><center>2ro uprajnenie</center></p>
-                <p><center>Tuk iska6 po 10 powttoreniq na krak otnowo po 3 serii</center> </p>
+                  <br><br><br>  <br><br><br>
+                <p align="center"><b> 2. Упражнение  </b></p>
+                <p><center>3х20 (по 10 повторения на крак).</center> </p>
+                    <br>
                 <center><img src="snimki/2ro.gif"></cneter>
-                <p><center>3to uprajnenie</center></p>
-                <p>Kato cqlo za wsqko uprajnenie iska6 po 3 serii, otnowo gleda6 da naprawi6 po 10 powtoreniq na krak</p>
+                  <br><br><br>  <br><br><br>
+                <p><center><b>3. Упражнение</b></center></p>
+                <p>3х20 (по 10 повторения на крак)</p>
+                      <br>
                 <center><img src="snimki/3to.gif"></center>
-                <p><center>4to uprajnenie</center></p>
-                <p>3 serii i se staremi6 da naprawi6 po powtoreniq na ryka</p>
+                  <br><br><br>  <br><br><br>
+                <p><center><b>4. Упражнение</b></center></p>
+                <p>3х10/20</p>
+                    <br>
                 <center><img src="snimki/4to.gif"></center>
-                <p><center>5to uprajnenie</center></p>
-                <p>Aha za vsqko uprajnenie se starae6 da go prawi6 bawno sledi6 formata da ima ogledala wuw fitnesa moje da se gleda6 kak go prawi6, a za uprajnenieto iska6 10 powtoreniq po 3 serii :)</p>
+                  <br><br><br>  <br><br><br>
+                <p><center><b>5. Упражнение</b></center></p>
+                <p>3х10/20</p>
+                  <br>
                 <center><img src="snimki/5to.gif"></center>
-                <p><center>6to uprajnenie</center></p>
-                <p>Aham 3x10 znaee6 :DDDDDDDDDDDD</p>
+                  <br><br><br>  <br><br><br>
+                <p><center><b>6. Упражнение</b></center></p>
+                <p>3х10/12</p>
+                  <br>
                 <center><img src="snimki/6to.gif"></center>
-                <p><center>7mo uprajnenie</center></p>
-                <p>Tuka da 3x20 za raznoobrazie i pot</p>
+                  <br><br><br>  <br><br><br>
+                <p><center><b>7. Упражнение</b></center></p>
+                <p>3х20</p>
+                  <br>
                 <center><img src="snimki/7mo.gif"></center>
-                <p><center>8mo uprajnenie</center></p>
-                <p>tuk 3x10 stiga (eheee do tuka li stigna *brawo e 6weps*)</p>
+                  <br><br><br>  <br><br><br>
+                <p><center><b>8.Упражнение</b></center></p>
+                <p>3х10</p>
+                  <br>
                 <center><img src="snimki/8mo.gif"></center>
-                <p><center>9to uprajnenie</center></p>
-                <p>Ako ima6 energiq tuka prawi6 3x30secundi(i tolkowa ot nas wuw fitnesa)</p>
+  <br><br><br>  <br><br><br>
+                <p><center><b>9.(последно) Упражнение</b></center></p>
+                <p>3х30/60сек.</p>
+                  <br>
                 <center><img src="snimki/9to.gif"></center>
             
         </body>
         
         <body>
             <br><br><br>
-            <p>Taka sled kato se natrenira6 e vajno da hapne6</p>
+            <p>Хубаво е да се хапне след тренировка</p>
+              <br><br><br>  <br>
             <center><img width="600" height="900" src="snimki/vajnoda.jpg"> </center>           
-
-            <p>Ta wajnoto tuk e che ako iska6 da ima6 energiq predi trenirowka tyrsi6 wyglehidrati, a sled trenirowka beltu4ini.</p>
+  <br><br><br>  
+            <p>1. За енергия преди тренировка </p>
+             <p> Това са въглехидратите като - плодовете (коефеинът също работи) </p>
+              <p>2. Белтъчини </p>
+               <p>Месо, яйца, риба... </p>
+                <p>3. Сън!!!!!!! </p>
+  
         </body>
         
         
