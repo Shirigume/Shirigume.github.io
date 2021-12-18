@@ -197,3 +197,21 @@
         text-decoration: none;
     }
 </style>
+body{
+    bockground: url(2.jpg);
+    background-size cover;
+    background-repeat: no-repeat;
+    opacity; 0.9;
+}
+.inside{
+    background: pink;
+    margin-top: 80px;
+    text-align: center;
+    width: 400px;
+    border-radius: 1.Srem;
+    
+}
+#result{
+    font-weight: bold;
+    font-family: 'Segue UI', Tahoma, Geneva, Verdana, sans-serif:
+}
