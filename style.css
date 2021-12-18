@@ -163,4 +163,37 @@
         justify-content: center;
         color: white;
     }
+    #main, #subnav{
+        float: left;
+        padding:0;
+        width: 94%;
+        margin: 3%;
+        
+    }
+    #subway dt{
+        padding: 0;
+        margin-top:0;
+    }
+    #subnav{
+        border-right:1px dotted #aaa;
+        border-bottom: 1px dotted #aaa;
+    }
+    #logo{
+        font-size: 45px;
+    }
+    #menu{
+        text-align: center;
+        padding: 0;
+    }
+    #menu{
+        display: inline-block;
+        margin: 1.25% .5% 1.25% .5%;
+        border-left:0;
+        padding: 1%;
+        border: 1px solid white;
+    }
+    #menu li a{
+        color: white;
+        text-decoration: none;
+    }
 </style>
