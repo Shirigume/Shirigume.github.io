@@ -198,23 +198,7 @@
 
 
 
-div   {
-    background-color: green;
-    
-        
 
-}
-body{
-    background-repeat:no-repeat;
-    opacity: 0.9;
-}
-.inside{
-    background: pink;
-    margin-top: 80px;
-    text-align: center;
-    width: 400px;
-    border-radius: 1.Srem;
-}
     html {
         background-color: #333232; 
         height: 100%;
@@ -276,4 +260,12 @@ body{
     grid-row-end: 3;
     align-self: center;  
     justify-self: center;
+}
+#table {
+    height:100px;
+    width: 550px;
+    background-color: #F5F4C3;
+    margin: 0 auto;
+    border: 5px solid #88B169;
+
 }
