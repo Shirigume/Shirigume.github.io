@@ -1,16 +1,8 @@
+let btn = document.getElementById('btn');
 
-function BMI()
-{
-    var w=document.getElemntById('w').value;
-     var h=document.getElemntById('h').value;
-     var bmi=w(h/100*h/100);
-     var bmio=(bmi.toFixed(2));
-     
-     document.getElementById("result").innerHTML="Your BMI is: "+bmio;
-     
-
-}
-function Clear()
-{
-    focument.getElementById("result").innterHTML="";
-}
+btn.addEventListener('click', function(){
+let weight = document.getElementById('weight-imput'). value;
+let weight = document.getElementById('height-imput'). value;
+let finalbmi = (weight / height * height) * 10000;
+document.getElementById('bmi-output').value = finalbmi;
+});
