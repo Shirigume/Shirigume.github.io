@@ -4,24 +4,32 @@
         <head>
          
          <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="ie-edge">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Website Design with giF Bacrounds - Easy Tutorial</title>
             <script src="scripts/main.js"></script>
             <link rel="stylesheet" href="style.css">
-            </script>> </script>
-              <style>
-        
-    </style>
+   <title>Bmi calculator</title>
  <link rel="stylesheet" href="style.css">           
         </head>
+        <script>
+          function bmi(){
+              var height=parseFloat(document.getElementById("h").value)
+              var weight=parseFloat(document.getElementById("w").value)
+              var bmi=weight/(height*height);
+              var userBMI=document.getElementById("bmi_index");
+              userBMI.textContent=bmi.toFixed(2);
+      
+          }
+      </script>
+        <body>
          <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo">
                 <img src= "logo.png">
             </div>
             <li><a href="#web">Тренировка</a></li>
-            <li><a href="#program">Хранене</a></li>
+            <li><a href="kalculator.html">kalculator</a></li>
             <li><a href="#course">Режим</a></li>
         </ul>
  
@@ -78,9 +86,9 @@
                   <br>
                 <center><img src="snimki/9to.gif"></center>
             
-        </body>
+       
         
-        <body>
+      
             <br><br><br>
             <p id="course">Хубаво е да се хапне след тренировка</p>
               <br><br><br>  <br>
@@ -92,7 +100,8 @@
                <p>Месо, яйца, риба... </p>
                 <p>3. Сън!!!!!!! </p>
   
-   
+    
+
    
   </div>
   <div id="containter">
@@ -116,20 +125,16 @@
   <td>30.0 and above</td>
 </tr>
   </div>
-  <script>
-    function bmi(){
-        var height=parseFloat(document.getElementById("h").value)
-        var weight=parseFloat(document.getElementById("w").value)
-        var bmi=weight/(height*height);
-        var userBMI=document.getElementById("bmi_index");
-        userBMI.textContent=bmi.toFixed(2);
-
-    }
-</script>
+ 
   height<input type="text" id="h">
   weight<input type=text id="w">
   <input type="button" value="Calculate" onclick="bmi()">
   <h2 class="text-input">BMI=<b id="bmi_index"></b></h2>
+
+
+
+
+
         </body>
         
         
