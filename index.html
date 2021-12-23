@@ -5,31 +5,22 @@
          
          <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE-edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Website Design with giF Bacrounds - Easy Tutorial</title>
             <script src="scripts/main.js"></script>
             <link rel="stylesheet" href="style.css">
    <title>Bmi calculator</title>
  <link rel="stylesheet" href="style.css">           
         </head>
-        <script>
-          function bmi(){
-              var height=parseFloat(document.getElementById("h").value)
-              var weight=parseFloat(document.getElementById("w").value)
-              var bmi=weight/(height*height);
-              var userBMI=document.getElementById("bmi_index");
-              userBMI.textContent=bmi.toFixed(2);
-      
-          }
-      </script>
+       
         <body>
          <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo">
                 <img src= "logo.png">
             </div>
-            <li><a href="#web">Тренировка</a></li>
-            <li><a href="kalculator.html">kalculator</a></li>
+            <li><a href="index.html ">Тренировка</a></li>
+            <li><a href="kalculator.html">Калколатор</a></li>
             <li><a href="#course">Режим</a></li>
         </ul>
  
@@ -103,34 +94,7 @@
     
 
    
-  </div>
-  <div id="containter">
-    <label for="weight-input" id="wlabel">KG</label><input type="text" id="weight-input">
-    <label for="height-input" id="hlabel">CM</label><input type="text" id="height-input">
-    <button id="btn">Calculate</button>
-    <label for="bmi-output" id="b,ilabel">YOUR BMI</label><input type="text" id="bmi-output">
-  </div>
-  <div id="table">
-<caption>BMI TNDFX:</caption>
-<tr>
-  <th>Underweight</th>
-  <th>Healthy</th>
-  <th>Overweight</th>
-  <th>Obese</th>
-</tr>
-<tr>
-  <td>Below 18.5</td>
-  <td>18.5-24.9</td>
-  <td>25.0-29.9</td>
-  <td>30.0 and above</td>
-</tr>
-  </div>
- 
-  height<input type="text" id="h">
-  weight<input type=text id="w">
-  <input type="button" value="Calculate" onclick="bmi()">
-  <h2 class="text-input">BMI=<b id="bmi_index"></b></h2>
-
+  
 
 
 
